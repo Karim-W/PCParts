@@ -16,6 +16,33 @@
 		8AAD85AF24D1C32F00C8F654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AAD85AD24D1C32F00C8F654 /* LaunchScreen.storyboard */; };
 		8AAD85BA24D1C32F00C8F654 /* PCPartsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD85B924D1C32F00C8F654 /* PCPartsTests.swift */; };
 		8AAD85C524D1C32F00C8F654 /* PCPartsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD85C424D1C32F00C8F654 /* PCPartsUITests.swift */; };
+		8AC1BABC24D223C900737044 /* rssStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1BABB24D223C900737044 /* rssStruct.swift */; };
+		8AC1BABF24D2249000737044 /* rssCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1BABE24D2249000737044 /* rssCell.swift */; };
+		8AC1BAE324D29E1000737044 /* vb.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC1BAD924D29E1000737044 /* vb.png */; };
+		8AC1BAE424D29E1000737044 /* tc.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC1BADA24D29E1000737044 /* tc.png */; };
+		8AC1BAE624D29E1000737044 /* nyt.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC1BADC24D29E1000737044 /* nyt.png */; };
+		8AC1BAE724D29E1000737044 /* sky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AC1BADD24D29E1000737044 /* sky.jpg */; };
+		8AC1BAE824D29E1000737044 /* mw.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AC1BADE24D29E1000737044 /* mw.jpeg */; };
+		8AC1BAE924D29E1000737044 /* ai.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AC1BADF24D29E1000737044 /* ai.jpeg */; };
+		8AC1BAEA24D29E1000737044 /* mit.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC1BAE024D29E1000737044 /* mit.png */; };
+		8AC1BAF024D2A18700737044 /* tm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AC1BAEF24D2A18700737044 /* tm.jpg */; };
+		8AC1BAF224D2A25500737044 /* bbc.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC1BAF124D2A25500737044 /* bbc.png */; };
+		8AC1BAF424D2A35700737044 /* wir.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AC1BAF324D2A35600737044 /* wir.jpg */; };
+		8AC1BAF824D2B50300737044 /* Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1BAF724D2B50300737044 /* Build.swift */; };
+		8AC1BAFA24D34ECB00737044 /* BuilderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1BAF924D34ECB00737044 /* BuilderViewController.swift */; };
+		8AC1BAFC24D4BD4500737044 /* addBuildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1BAFB24D4BD4500737044 /* addBuildViewController.swift */; };
+		8AC1BAFE24D4BEE100737044 /* cpuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1BAFD24D4BEE100737044 /* cpuModel.swift */; };
+		8AC1BB0224D4BFEE00737044 /* motherboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1BB0124D4BFEE00737044 /* motherboardModel.swift */; };
+		8AC1BB0424D4C6B600737044 /* RAMmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1BB0324D4C6B600737044 /* RAMmodel.swift */; };
+		8AC1BB0624D4C80300737044 /* storageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1BB0524D4C80300737044 /* storageModel.swift */; };
+		8AC1BB0A24D4F15E00737044 /* gpu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1BB0924D4F15E00737044 /* gpu.swift */; };
+		8AC1BB0C24D4F79F00737044 /* cooler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1BB0B24D4F79F00737044 /* cooler.swift */; };
+		8AC1BB0E24D4FDDF00737044 /* powersupply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1BB0D24D4FDDF00737044 /* powersupply.swift */; };
+		8AC1BB1024D4FE7900737044 /* misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1BB0F24D4FE7900737044 /* misc.swift */; };
+		8AC1BB1224D501A600737044 /* buildCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1BB1124D501A600737044 /* buildCell.swift */; };
+		8AC1BB1624D52BC600737044 /* orange_Coral.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC1BB1524D52BC600737044 /* orange_Coral.png */; };
+		8AC1BB1824D7679B00737044 /* componentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1BB1724D7679B00737044 /* componentCell.swift */; };
+		8AC1BB1A24DA5C2400737044 /* RNBW.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AC1BB1924DA5C2400737044 /* RNBW.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +78,33 @@
 		8AAD85C024D1C32F00C8F654 /* PCPartsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PCPartsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AAD85C424D1C32F00C8F654 /* PCPartsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCPartsUITests.swift; sourceTree = "<group>"; };
 		8AAD85C624D1C32F00C8F654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AC1BABB24D223C900737044 /* rssStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = rssStruct.swift; path = PCParts/rssStruct.swift; sourceTree = SOURCE_ROOT; };
+		8AC1BABE24D2249000737044 /* rssCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rssCell.swift; sourceTree = "<group>"; };
+		8AC1BAD924D29E1000737044 /* vb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vb.png; sourceTree = "<group>"; };
+		8AC1BADA24D29E1000737044 /* tc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tc.png; sourceTree = "<group>"; };
+		8AC1BADC24D29E1000737044 /* nyt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nyt.png; sourceTree = "<group>"; };
+		8AC1BADD24D29E1000737044 /* sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sky.jpg; sourceTree = "<group>"; };
+		8AC1BADE24D29E1000737044 /* mw.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mw.jpeg; sourceTree = "<group>"; };
+		8AC1BADF24D29E1000737044 /* ai.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ai.jpeg; sourceTree = "<group>"; };
+		8AC1BAE024D29E1000737044 /* mit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mit.png; sourceTree = "<group>"; };
+		8AC1BAEF24D2A18700737044 /* tm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tm.jpg; sourceTree = "<group>"; };
+		8AC1BAF124D2A25500737044 /* bbc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bbc.png; sourceTree = "<group>"; };
+		8AC1BAF324D2A35600737044 /* wir.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wir.jpg; sourceTree = "<group>"; };
+		8AC1BAF724D2B50300737044 /* Build.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Build.swift; sourceTree = "<group>"; };
+		8AC1BAF924D34ECB00737044 /* BuilderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderViewController.swift; sourceTree = "<group>"; };
+		8AC1BAFB24D4BD4500737044 /* addBuildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addBuildViewController.swift; sourceTree = "<group>"; };
+		8AC1BAFD24D4BEE100737044 /* cpuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cpuModel.swift; sourceTree = "<group>"; };
+		8AC1BB0124D4BFEE00737044 /* motherboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motherboardModel.swift; sourceTree = "<group>"; };
+		8AC1BB0324D4C6B600737044 /* RAMmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMmodel.swift; sourceTree = "<group>"; };
+		8AC1BB0524D4C80300737044 /* storageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storageModel.swift; sourceTree = "<group>"; };
+		8AC1BB0924D4F15E00737044 /* gpu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gpu.swift; sourceTree = "<group>"; };
+		8AC1BB0B24D4F79F00737044 /* cooler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cooler.swift; sourceTree = "<group>"; };
+		8AC1BB0D24D4FDDF00737044 /* powersupply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = powersupply.swift; sourceTree = "<group>"; };
+		8AC1BB0F24D4FE7900737044 /* misc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = misc.swift; sourceTree = "<group>"; };
+		8AC1BB1124D501A600737044 /* buildCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buildCell.swift; sourceTree = "<group>"; };
+		8AC1BB1524D52BC600737044 /* orange_Coral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange_Coral.png; sourceTree = "<group>"; };
+		8AC1BB1724D7679B00737044 /* componentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = componentCell.swift; sourceTree = "<group>"; };
+		8AC1BB1924DA5C2400737044 /* RNBW.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RNBW.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +155,12 @@
 		8AAD859E24D1C32D00C8F654 /* PCParts */ = {
 			isa = PBXGroup;
 			children = (
+				8AC1BAC024D2923600737044 /* Pictures */,
+				8AC1BABD24D2246600737044 /* Cells */,
+				8AAD85D224D1FF5000C8F654 /* Controllers */,
+				8AC1BABA24D2235B00737044 /* Structs */,
 				8AAD859F24D1C32D00C8F654 /* AppDelegate.swift */,
 				8AAD85A124D1C32D00C8F654 /* SceneDelegate.swift */,
-				8AAD85A324D1C32D00C8F654 /* ViewController.swift */,
 				8AAD85A524D1C32D00C8F654 /* Main.storyboard */,
 				8AAD85AB24D1C32F00C8F654 /* Assets.xcassets */,
 				8AAD85AD24D1C32F00C8F654 /* LaunchScreen.storyboard */,
@@ -129,6 +186,62 @@
 				8AAD85C624D1C32F00C8F654 /* Info.plist */,
 			);
 			path = PCPartsUITests;
+			sourceTree = "<group>";
+		};
+		8AAD85D224D1FF5000C8F654 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8AAD85A324D1C32D00C8F654 /* ViewController.swift */,
+				8AC1BAF924D34ECB00737044 /* BuilderViewController.swift */,
+				8AC1BAFB24D4BD4500737044 /* addBuildViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8AC1BABA24D2235B00737044 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				8AC1BABB24D223C900737044 /* rssStruct.swift */,
+				8AC1BAF724D2B50300737044 /* Build.swift */,
+				8AC1BAFD24D4BEE100737044 /* cpuModel.swift */,
+				8AC1BB0124D4BFEE00737044 /* motherboardModel.swift */,
+				8AC1BB0324D4C6B600737044 /* RAMmodel.swift */,
+				8AC1BB0524D4C80300737044 /* storageModel.swift */,
+				8AC1BB0924D4F15E00737044 /* gpu.swift */,
+				8AC1BB0B24D4F79F00737044 /* cooler.swift */,
+				8AC1BB0D24D4FDDF00737044 /* powersupply.swift */,
+				8AC1BB0F24D4FE7900737044 /* misc.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		8AC1BABD24D2246600737044 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8AC1BABE24D2249000737044 /* rssCell.swift */,
+				8AC1BB1124D501A600737044 /* buildCell.swift */,
+				8AC1BB1724D7679B00737044 /* componentCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8AC1BAC024D2923600737044 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				8AC1BB1924DA5C2400737044 /* RNBW.jpg */,
+				8AC1BB1524D52BC600737044 /* orange_Coral.png */,
+				8AC1BADF24D29E1000737044 /* ai.jpeg */,
+				8AC1BAF124D2A25500737044 /* bbc.png */,
+				8AC1BAEF24D2A18700737044 /* tm.jpg */,
+				8AC1BAE024D29E1000737044 /* mit.png */,
+				8AC1BADE24D29E1000737044 /* mw.jpeg */,
+				8AC1BAF324D2A35600737044 /* wir.jpg */,
+				8AC1BADC24D29E1000737044 /* nyt.png */,
+				8AC1BADD24D29E1000737044 /* sky.jpg */,
+				8AC1BADA24D29E1000737044 /* tc.png */,
+				8AC1BAD924D29E1000737044 /* vb.png */,
+			);
+			path = Pictures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +348,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AC1BAF024D2A18700737044 /* tm.jpg in Resources */,
+				8AC1BAF424D2A35700737044 /* wir.jpg in Resources */,
+				8AC1BB1A24DA5C2400737044 /* RNBW.jpg in Resources */,
+				8AC1BAEA24D29E1000737044 /* mit.png in Resources */,
+				8AC1BB1624D52BC600737044 /* orange_Coral.png in Resources */,
+				8AC1BAE424D29E1000737044 /* tc.png in Resources */,
+				8AC1BAE624D29E1000737044 /* nyt.png in Resources */,
 				8AAD85AF24D1C32F00C8F654 /* LaunchScreen.storyboard in Resources */,
+				8AC1BAE324D29E1000737044 /* vb.png in Resources */,
+				8AC1BAE924D29E1000737044 /* ai.jpeg in Resources */,
+				8AC1BAE724D29E1000737044 /* sky.jpg in Resources */,
+				8AC1BAF224D2A25500737044 /* bbc.png in Resources */,
+				8AC1BAE824D29E1000737044 /* mw.jpeg in Resources */,
 				8AAD85AC24D1C32F00C8F654 /* Assets.xcassets in Resources */,
 				8AAD85A724D1C32D00C8F654 /* Main.storyboard in Resources */,
 			);
@@ -262,10 +387,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AC1BB1224D501A600737044 /* buildCell.swift in Sources */,
+				8AC1BAFE24D4BEE100737044 /* cpuModel.swift in Sources */,
+				8AC1BABC24D223C900737044 /* rssStruct.swift in Sources */,
 				8AAD85A424D1C32D00C8F654 /* ViewController.swift in Sources */,
 				8AAD85AA24D1C32D00C8F654 /* PCParts.xcdatamodeld in Sources */,
 				8AAD85A024D1C32D00C8F654 /* AppDelegate.swift in Sources */,
+				8AC1BAFA24D34ECB00737044 /* BuilderViewController.swift in Sources */,
+				8AC1BB0E24D4FDDF00737044 /* powersupply.swift in Sources */,
+				8AC1BB1824D7679B00737044 /* componentCell.swift in Sources */,
+				8AC1BB0424D4C6B600737044 /* RAMmodel.swift in Sources */,
+				8AC1BB0C24D4F79F00737044 /* cooler.swift in Sources */,
+				8AC1BB0224D4BFEE00737044 /* motherboardModel.swift in Sources */,
+				8AC1BB0624D4C80300737044 /* storageModel.swift in Sources */,
 				8AAD85A224D1C32D00C8F654 /* SceneDelegate.swift in Sources */,
+				8AC1BAFC24D4BD4500737044 /* addBuildViewController.swift in Sources */,
+				8AC1BAF824D2B50300737044 /* Build.swift in Sources */,
+				8AC1BB0A24D4F15E00737044 /* gpu.swift in Sources */,
+				8AC1BABF24D2249000737044 /* rssCell.swift in Sources */,
+				8AC1BB1024D4FE7900737044 /* misc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
